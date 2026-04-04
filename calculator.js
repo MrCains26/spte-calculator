@@ -3,7 +3,7 @@ class WikiStatCalculator {
         this.suffixes = [
             'K', 'M', 'B', 'T', 'Qa', 'Qi', 'Sx', 'Sp', 'Oc', 'No', 'Dc', 'Ud', 'Dd', 'Td', 'Qad', 'Qid', 'Sxd', 'Spd', 'Ocd', 'Nod',
             'Vg', 'UVg', 'DVg', 'TVg', 'QaVg', 'QiVg', 'SxVg', 'SpVg', 'OcVg', 'NoVg', 'Tg', 'UTg', 'DTg', 'TTg', 'QaTg', 'QiTg', 'SxTg',
-            'SpTg', 'OcTg', 'NoTg', 'Qag', 'UQag', 'DQag', 'TQag', 'QaQag', 'QiQag', 'SxQag', 'SpQag', 'OcQag', 'NoQag', 'Qig', 'UQig'
+            'SpTg', 'OcTg', 'NoTg', 'Qag', 'UQag', 'DQag', 'TQag', 'QaQag', 'QiQag', 'SxQag', 'SpQag', 'OcQag', 'NoQag', 'Qig', 'UQig', 'DQig', 'TQig', 'QaQig', 'QiQig'
         ];
 
         this.cooldowns = {
@@ -14,7 +14,7 @@ class WikiStatCalculator {
             JF: 0.5,
             TC: 300,
             TPM: 60,
-            UC: 300,
+            UC: 120,
         };
 
         this.suffixToMultiplier = {};
